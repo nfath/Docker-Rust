@@ -18,11 +18,14 @@ touch .gitignore
 npm init
 
 # add node_modules to .gitignore file
-node_modules
+touch .gitignore
+# and add this node_modules to file
 
 npm install express
 
 # write a Hello World! sample nodejs code
+touch index.js
+# and add simple code in it
 
 # run the express server on port 3000
 node index.js
