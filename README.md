@@ -9,7 +9,7 @@ git init
 # list the local branches
 git branch --list
 
-#rename the name of master branch to main
+# rename the name of master branch to main
 git branch -m master main
 
 npm init
