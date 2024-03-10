@@ -32,3 +32,7 @@ node index.js
 
 # test on browser localhost:3000
 
+# add .dockerignore file to project and add .git and node_modules folders inside it
+touch .dockerignore
+
+
