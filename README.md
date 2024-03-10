@@ -35,4 +35,15 @@ node index.js
 # add .dockerignore file to project and add .git and node_modules folders inside it
 touch .dockerignore
 
+# make the 1st docker image from current Dockerfile   
+docker build .
+docker images
+
+# Run the docker images that will run the express server app
+docker run 3bded4511375
+
+# localhost:3000 not run because we have to expose a port for host machine so stop the container 
+docker stop e2086f3353b6
+docker run -p 8000:3000 3bded4511375
+# now run it in browser: localhost:8000 and cooool
 
