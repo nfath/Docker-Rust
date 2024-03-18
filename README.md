@@ -1,5 +1,5 @@
 
-** A Simple NodeJS Application Inside a Docker Container **
+# A Simple NodeJS Application Inside a Docker Container
 
 docker_nodejs
 cd docker_nodejs
