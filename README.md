@@ -1,3 +1,7 @@
+<!--
+A Simple NodeJS Application Inside a Docker Container
+-->
+
 mkdir docker_nodejs
 cd docker_nodejs
 
